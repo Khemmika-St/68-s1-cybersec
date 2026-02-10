@@ -15,3 +15,8 @@ cp env.simple .env
 docker compost -f db.yaml up # monitoring
 docker compost -f db.yaml up -d #backaround
 ```
+###Admin
+``` sh
+docker compost -f admin.yaml up # monitoring
+docker compost -f admin.yaml up -d #backaround
+```
