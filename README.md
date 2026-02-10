@@ -20,3 +20,8 @@ docker compost -f db.yaml up -d #backaround
 docker compost -f admin.yaml up # monitoring
 docker compost -f admin.yaml up -d #backaround
 ```
+###Admin
+``` sh
+docker compost -f app.yaml up # monitoring
+docker compost -f app.yaml up -d #backaround
+```
